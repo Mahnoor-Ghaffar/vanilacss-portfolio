@@ -1,11 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import bag from '@/../public/img/img-1.png';
-import brush from '@/../public/svg/brush.svg';
-import code from '@/../public/svg/code.svg';
-import desktop from '@/../public/svg/desktop.svg';
-import media from '@/../public/svg/media.svg';
-import phone from '@/../public/svg/phone.svg';
 import { FaTv, FaLaptop, FaPhoneAlt,FaBriefcase, FaPaintBrush } from 'react-icons/fa';
 import { BiCode } from 'react-icons/bi';
 import { MdOutlineHeadphones } from 'react-icons/md';
