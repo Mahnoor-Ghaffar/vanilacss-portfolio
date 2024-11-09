@@ -19,7 +19,7 @@ const Nav: React.FC = () => {
         const scroll_position = window.scrollY;
         header.style.backgroundColor = scroll_position > 250 ? 'black' : 'black';
         const scroll = window.scrollY;
-        logo.style.color = scroll_position > 250 ? '#fcc707' : '#fcc707';
+        logo.style.color = scroll > 250 ? '#fcc707' : '#fcc707';
       };
      
 

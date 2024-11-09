@@ -1,6 +1,5 @@
-import Image from 'next/image';
 import React from 'react';
-import { FaTv, FaLaptop, FaPhoneAlt,FaBriefcase, FaPaintBrush } from 'react-icons/fa';
+import { FaLaptop, FaPhoneAlt,FaBriefcase, FaPaintBrush } from 'react-icons/fa';
 import { BiCode } from 'react-icons/bi';
 import { MdOutlineHeadphones } from 'react-icons/md';
 

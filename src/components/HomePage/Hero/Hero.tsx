@@ -8,17 +8,6 @@ import HeroSec from '@/../public/pro-pic.png'
 
 const Hero = () => {
   return (
-  //   <section id="hero">
-  //   <div className="hero container">
-  //     <div>
-  //       <h1>Hello, <span></span></h1>
-  //       <h1>My Name is <span></span></h1>
-  //       <h1>Mahnoor <span></span></h1>
-  //       <a href="#projects" type="button" className="cta">Portfolio</a>
-  //     </div>
-  //   </div>
-  // </section>
-
   <div className="hero-container">
   <div className="hero-pic">
     <Image src={HeroSec} alt="profile pic" />
@@ -37,13 +26,6 @@ const Hero = () => {
       <Link href="#" className="btn">Contact</Link>
     </div>
 
-    <div className="social">
-      <Link href="#"><i className="fa-brands fa-facebook"></i></Link>
-      <Link href="#"><i className="fa-brands fa-linkedin"></i></Link>
-      <Link href="#"><i className="fa-brands fa-instagram"></i></Link>
-      <Link href="#"><i className="fa-brands fa-dribbble"></i></Link>
-      <Link href="#"><i className="fa-brands fa-pinterest"></i></Link>
-    </div>
   </div>
 </div>
 
