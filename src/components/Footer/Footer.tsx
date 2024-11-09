@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -10,16 +12,24 @@ const Footer = () => {
       <h2>Your Complete Web Solution</h2>
       <div className="social-icon">
         <div className="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+          <Link href="#">
+          <Image src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="icons" />
+          </Link>
         </div>
         <div className="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+          <Link href="#">
+          <Image src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt="icons" />
+          </Link>
         </div>
         <div className="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></a>
+          <Link href="#">
+          <Image src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="icons" />
+          </Link>
         </div>
         <div className="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+          <Link href="#">
+          <Image src="https://img.icons8.com/bubbles/100/000000/behance.png" alt="icons" />
+          </Link>
         </div>
       </div>
       <p>Copyright © 2024 Mahnoor. All rights reserved</p>
