@@ -18,8 +18,6 @@ const Nav: React.FC = () => {
       const handleScroll = () => {
         const scroll_position = window.scrollY;
         header.style.backgroundColor = scroll_position > 250 ? 'black' : 'black';
-        const scroll = window.scrollY;
-        logo.style.color = scroll > 250 ? '#fcc707' : '#fcc707';
       };
      
 
@@ -49,7 +47,7 @@ const Nav: React.FC = () => {
           <div className="nav-bar">
             <div className="brand">
               <a href="#hero">
-                <h1><span id='logo'>M</span>ahnoor</h1>
+                <h1><span>M</span>ahnoor</h1>
               </a>
             </div>
             <div className="nav-list">
