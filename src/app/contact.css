@@ -1,0 +1,78 @@
+.down-box{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactSkills{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 80%;
+}
+
+.contact-info{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.767);
+    box-shadow: rgba(0, 0, 0, 0.452)0px 2px 4px;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 90px;
+    height: 780px;
+}
+.contact-info h1{
+    color: white;
+}
+
+
+.contact-info input,
+.contact-info form textarea{
+    width: 100%;
+}
+
+.contact-info form input,
+.contact-info form textarea{
+    /* width: 100%; */
+    padding: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.178);
+    margin: .5rem 0;
+    background: var(--font-color);
+    border-radius: 5px;
+    outline: none;
+    transition: .3s;
+}
+
+.contact-info form .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box input{
+    width: 49%;
+}
+
+form input:focus,form textarea:focus{
+    filter: brightness(100%);
+    background: #090a0a;
+    border: 2px solid white;
+}
+
+form textarea{
+    resize: none;
+}
+
+form .btn{
+    padding: 15px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--bg-color);
+    margin: 20px 0;
+}
+form {
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:0 40px;
+}
